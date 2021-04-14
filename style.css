@@ -1,0 +1,136 @@
+
+body{
+    background: url(img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:5px; 
+    padding: 1em;
+}
+#navbar a{
+   text-align: center;
+   width: 5em;
+   height:30px;
+   line-height: 30px;
+   text-decoration: none;
+   color: black;
+   transition:all 1s linear;
+}
+#navbar a:hover{
+    color:purple;
+    background-color:rgb(255,217,144);
+    font-weight: bold;
+    border-radius: 5px;
+}
+h1{
+    margin:10px 20%;
+    text-align: center;
+    padding: 10px;
+}
+#about img{
+    width: 50%;
+    margin:2px 20%;
+
+}
+
+ #about {
+    text-align: center; 
+}
+
+
+.introduction{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.introduction p{
+    line-height: 1.5;
+    text-align: justify;
+    /* font-size: 15px; */
+    margin: 10px;
+}
+
+/* project section */
+#projects p{
+    margin: 5px;
+    text-align: justify;
+
+}
+
+#projects img{
+    width: 300px;
+    max-height: 300px;
+    margin: 10px;
+}
+
+#skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#skill img{
+    width: 100px;
+    margin: 15px;
+}
+#contact img{
+    width: 80px;
+    margin: 10px;
+
+}
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    p{font-size: 1.5rem; text-align: justify;}
+    #about img{width:35%; margin:5px 15%;}
+    #name {font-size: 2em;}
+    #skill{margin:5px;
+     flex-direction: row;
+     justify-content: flex-start;
+    }
+    #contact img{
+        margin: ;
+        width: 5em;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
