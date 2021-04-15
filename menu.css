@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 #container{
-    width:90%;
+    
     margin: o auto;
+}
+#header img{
+    width:100%;
+    max-height: 100px;
+}
+#nav{ 
+	height:30px;	
+	margin-bottom:5px;
+	background-color: rgb(231, 183, 119);		
+	letter-spacing: 2px;
+    text-align: center;
+    line-height: 30px;
+    color:white;
+}
+#nav a{
+    color:white;
+    font-weight: bolder;
+    font-size: 10px;
+    text-decoration: none;
 }
