@@ -97,11 +97,11 @@ body{
     .col-s-12 {width: 100%;}
     #content h1{font-size: 40px;}
     #about1 p{margin:0 40px; font-size: 20px;}
-    /* #skill img{margin: 0 20px;} */
-    #skill img{
+    #skill img{margin: 0 20px;}
+    /* #skill img{
         display: flex; flex-direction: row;
         align-content: flex-start;
-    }
+    } */
     
   }
 
