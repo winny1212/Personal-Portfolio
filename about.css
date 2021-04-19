@@ -47,7 +47,7 @@ body{
 }
 .introduction img{
     width: 120px;
-    margin:5px auto;
+    /* margin:5px auto; */
 }
 #about1 h2{
     text-align: center;
@@ -68,6 +68,7 @@ body{
 #skill img{
     max-width: 45px;
     max-height: 60px;
+    margin: 0 3px;
 }
 #subintro a{
     font-size: 25px;
@@ -96,10 +97,14 @@ body{
     .col-s-12 {width: 100%;}
     #content h1{font-size: 40px;}
     #about1 p{margin:0 40px; font-size: 20px;}
-    /* #skill {display: flex; flex-direction: row;
-        justify-content: center; */
+    /* #skill img{margin: 0 20px;} */
+    #skill img{
+        display: flex; flex-direction: row;
+        align-content: flex-start;
+    }
     
   }
+
 
   @media only screen and (min-width: 768px) {
     /* For desktop: */
@@ -117,4 +122,5 @@ body{
     .col-12 {width: 100%;}
     #about1 p{margin:0 100px;}
     #navbar a{font-size: 20px;}
+    #skill img{margin: 0 30px;}
   }
