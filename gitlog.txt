@@ -1,0 +1,59 @@
+commit d3c9e4597b2df08ab283459c959f488114a92095
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Sat Apr 17 22:01:23 2021 +1000
+
+    add responsive media queries to the contact style document
+
+commit baf86d2170ae89e3d81e576c8612b372c5c7e4f9
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Fri Apr 16 23:20:52 2021 +1000
+
+    finish html and style it of the contact menu
+
+commit 3c7e4692222d16ac807d7c577e01bb6b5ba8a557
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Fri Apr 16 22:05:28 2021 +1000
+
+    create the contact project html
+
+commit 33251f0efbcb3c5b134652f3078408db617f2f0d
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Fri Apr 16 11:42:17 2021 +1000
+
+    add cafe menu responsive media queries
+
+commit 3f8ec2b02ff9d5adc1a02249ee4a1123cecaad3e
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Fri Apr 16 10:19:37 2021 +1000
+
+    updte the menu project css styling
+
+commit 712c5942ef9bdd006fcdf22eb0dd654ea452c512
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Fri Apr 16 09:48:01 2021 +1000
+
+    flex the menu content section
+
+commit 64afc203c75ca1f8842ef5fc6e73c88a99b70519
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Thu Apr 15 15:53:32 2021 +1000
+
+    header and nav style in the menu project
+
+commit 5f3513805e705dda4bd74bbabeb156a950627bc8
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Thu Apr 15 14:23:09 2021 +1000
+
+    download the cafe pics
+
+commit 4cb9b85e8c9db82722dadea60b70de5c5f6eaea1
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Thu Apr 15 13:01:41 2021 +1000
+
+    add the style section of projects
+
+commit 06a6623a87cf05a266dad0eaa9211e3b8d12fd92
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Wed Apr 14 16:21:48 2021 +1000
+
+    initial commit
