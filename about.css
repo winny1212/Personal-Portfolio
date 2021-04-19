@@ -3,12 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* background picture */
 body{
     background: url(img/background.jpg);
     background-size: cover;
     height: 100vh;
+    color: purple;
 }
-nav{
+/* navbar section */
+#navbar{
     display: flex;
     justify-content: flex-end;
     margin-top:5px; 
@@ -20,10 +23,10 @@ nav{
    height:30px;
    line-height: 30px;
    text-decoration: none;
-   color: black;
+   color: purple;
    transition:all 1s linear;
 }
-
+/* hyperlink section changes when tin the hover situation */
 #navbar a:hover{
     color:purple;
     background-color:rgb(255,217,144);
@@ -31,66 +34,46 @@ nav{
     border-radius: 5px;
     transform:scale(1.5);
 }
-#h1{
-    margin:10px 20%;
+/* hyperlink section changes when tin the hover situation */
+#navbar a:hover{
+    color:purple;
+    background-color:rgb(255,217,144);
+    font-weight: bold;
+    border-radius: 5px;
+    transform:scale(1.5);
+}
+#content{
     text-align: center;
-    padding: 10px;
 }
-#about img{
-    width: 50%;
-    margin:2px 20%;
-
+.introduction img{
+    width: 120px;
+    margin:5px auto;
 }
-
- #about {
-    text-align: center; 
+#about1 h2{
+    text-align: center;
 }
-
-
-.introduction{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+#about1 a{
+    border-radius: 5px;
+    border:1px dotted rgb(236, 173, 173);
+    background: lightgray;
+    text-decoration: none;
+    color: purple;
+    font-size: 15px;
 }
-
-.introduction p{
-    line-height: 1.5;
+#about1 p{
+    margin:0 10px;
     text-align: justify;
-    /* font-size: 15px; */
-    margin: 10px;
+    letter-spacing: 1px;  
 }
-
-/* project section */
-#projects p{
-    margin: 5px;
-    text-align: justify;
-
-}
-
-#projects img{
-    width: 300px;
-    max-height: 300px;
-    margin: 10px;
-}
-
-#skill{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 #skill img{
-    width: 100px;
-    margin: 15px;
+    max-width: 45px;
+    max-height: 60px;
 }
-#contact img{
-    width: 60px;
-    margin: 10px;
-
+#subintro a{
+    font-size: 25px;
+    font-weight: bolder;
+    color:rgb(110, 70, 110);
 }
-
-
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -111,18 +94,11 @@ nav{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-    p{font-size: 1.5rem; text-align: justify;}
-    #about img{width:35%; margin:5px 15%;}
-    #name {font-size: 2em;}
-    #skill{margin:5px;
-     flex-direction: row;
-     justify-content: flex-start;
-    }
-    #contact img{
-        margin: ;
-        width: 5em;
-    }
-
+    #content h1{font-size: 40px;}
+    #about1 p{margin:0 40px; font-size: 20px;}
+    /* #skill {display: flex; flex-direction: row;
+        justify-content: center; */
+    
   }
 
   @media only screen and (min-width: 768px) {
@@ -139,4 +115,6 @@ nav{
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    #about1 p{margin:0 100px;}
+    #navbar a{font-size: 20px;}
   }

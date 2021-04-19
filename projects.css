@@ -8,6 +8,7 @@ body{
     background: url(img/background.jpg);
     background-size: cover;
     height: 100vh;
+    color: purple;
 }
 
 /* navbar section */
@@ -23,7 +24,7 @@ nav{
    height:30px;
    line-height: 30px;
    text-decoration: none;
-   color: black;
+   font-weight: bolder;
    transition:all 1s linear;
 }
 #navbar a:hover{
@@ -31,6 +32,7 @@ nav{
     background-color:rgb(255,217,144);
     font-weight: bold;
     border-radius: 5px;
+    transform:scale(1.5);
 }
 
 /* section part */
@@ -58,11 +60,11 @@ h4{
     margin: 10px 15% 5px 15%;
 }
 #projects a{
-    margin-top: 3px;
-    border: 1px solid grey;
+    margin-top: 10px;
+    border: 1px dotted grey;
     padding: 2px;
     text-decoration: none;
-    color: black;
+    color:purple;
     font-size: 10px;
 }
 #projects a:hover{
@@ -108,5 +110,5 @@ h4{
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-    #project a{margin: 5px;}
+    #project a{margin:5px;}
   }
