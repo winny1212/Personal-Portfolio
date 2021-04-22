@@ -1,3 +1,39 @@
+commit 85c4febea31702e5da2fcab450d4c1025ef571d3
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Thu Apr 22 10:47:00 2021 +1000
+
+    overall check
+
+commit 21b72df19cb888216e04f70e3b67a830efd2b336
+Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
+Date:   Mon Apr 19 19:56:21 2021 +1000
+
+    update documents
+
+commit 5409776ddb49693194c9951f3a5a7d48d5b85392
+Author: Yujing Chen <yujingchen@Yujings-MacBook-Air.local>
+Date:   Mon Apr 19 16:36:48 2021 +1000
+
+    update documents
+
+commit b56913f84d0f19b269ec44839430d281986f034e
+Author: Yujing Chen <yujingchen@Yujings-MacBook-Air.local>
+Date:   Mon Apr 19 15:22:20 2021 +1000
+
+    update the about page and its css
+
+commit 6a738ad0069767334d8e34e2a147167cafe85575
+Author: Yujing Chen <yujingchen@Yujings-MacBook-Air.local>
+Date:   Mon Apr 19 10:14:23 2021 +1000
+
+    add the contact icon and flex them in the home page
+
+commit 6991ed637ee1dd85388f30ae9dcfa1ecba774ea4
+Author: Yujing Chen <yujingchen@Yujings-MacBook-Air.local>
+Date:   Mon Apr 19 10:00:43 2021 +1000
+
+    style the home page
+
 commit d3c9e4597b2df08ab283459c959f488114a92095
 Author: Yujing Chen <yujingchen@192-168-1-2.tpgi.com.au>
 Date:   Sat Apr 17 22:01:23 2021 +1000
