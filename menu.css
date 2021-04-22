@@ -56,9 +56,10 @@
 
 /* content section */
 #content{
-    font-size: 10px;
+    font-size: 15px;
     margin: 3px;
     background-color: rgb(231, 183, 119);
+    align-items: center;
 }
 #content img{
     margin: 3px;
@@ -69,6 +70,7 @@
 .subcont{
     display: flex;
     flex-direction: row;
+    align-items: center;
     border: 1px dotted lightgrey;
     border-radius: 10px;
     margin: 2px;
