@@ -1,0 +1,98 @@
+// Social links section
+
+.contact-1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(201,112,117);
+    margin: 0px 35px 35px 35px;
+    padding: 25px;
+    border-radius: 20px; 
+
+    p {
+        color: white;
+        font-size: 1.2em;
+    }
+
+    // social icons
+
+    img {
+        width: 40px;
+        margin: 30px 10px 0 20px;     
+    }
+}
+
+// Message form
+
+.message-form {
+    background-color:rgb(201,112,117);
+    margin: 0px 35px 35px 35px;
+    padding: 25px;
+    border-radius: 20px;
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+        // Labels for form inputs
+
+        label {
+            text-align: left;
+            font-size: 1rem;
+            margin: 15px 0 10px 0;
+            color: white;
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea {
+            border-radius: 7px;
+            border: none;
+            padding: 12px 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 0.8em;
+        }
+
+        // Submit button
+
+        input[type=submit] {
+            background-color: rgb(232,96,94);
+            border: 2px solid rgb(232,96,94);
+            border-radius: 6px;
+            color: white;
+            padding: 14px 20px;
+            margin: 25px 0 8px 0;
+            cursor: pointer;
+          }
+          
+        input[type=submit]:hover {
+            color: #fff;
+            background: none;
+        }
+    }
+
+    p {
+        color: white;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
+
+
+/* responsive media query start */
+
+// For tablets and desktops
+
+@media only screen and (min-width: 600px) {
+    .message-form,
+    .contact-1 {
+        width: 515px;
+        margin: 40px auto;
+    }
+}
+

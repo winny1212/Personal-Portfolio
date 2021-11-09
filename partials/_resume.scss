@@ -1,0 +1,91 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        color: white;
+        text-shadow: 2px 2px #ba4853;
+        margin: 30px 0px;
+        text-align: center;
+    }
+}
+.skills{
+    
+    background-color:rgb(201,112,117);
+    border-radius: 20px;
+
+    .experience{
+        background-color: rgb(201,112,117);
+            color: white;
+            margin: 40px 40px 0 40px;
+            padding: 0px 20px;
+
+            p {
+                margin: 20px 0;
+            }
+
+            a{
+                display: flex;
+                justify-content: center;
+                width: 150px;
+                background-color: rgb(232,96,94);
+                color: #fff;
+                font-weight: 500px;
+                font-size: 15px;
+                padding: 8px 15px;
+                margin: 20px auto 10px;
+                border-radius: 6px;
+                border: 2px solid rgb(232,96,94);
+                transition: all 0.3s ease;
+    
+                &:hover {
+                    color: #fff;
+                    background: none;
+                }         
+    }
+}  
+}
+
+.skill-icons {
+    h3{
+        font-size: 25px;
+        color: white;
+        font-weight: 400;
+        text-shadow: 2px 2px #ba4853;
+        margin: 25px 60px 20px;
+    }
+
+    // Icon images
+    .icons{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 15px 60px;
+    }
+    
+    img {
+        width: 50px;
+        margin: 20px 5px;
+        max-width: 80px;
+    } 
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .skills{
+        max-width: 70vw;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+
+    .skills{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+     
+}

@@ -1,0 +1,102 @@
+// Projects list
+
+.projects {
+    background-color:rgb(201,112,117);
+    margin: 40px;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    // Project image
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    // Project title and text description
+
+    h2 {
+        color: white;
+        text-shadow: 2px 2px #ba4853;
+        text-align: center;
+        margin: 20px;
+    }
+
+    p {
+        color: white;
+
+        a{
+            color: crimson;
+        }
+    }
+
+    .project-details{
+        font-family: 'Nunito', sans-serif;;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 13px;
+        color: whitesmoke;
+        padding: 15px 0px 15px 20px;
+
+        li{
+            padding: 5px 0;
+
+            span{
+                font-weight: 800;
+            }
+        }
+    }
+    
+    a {
+        text-decoration: none;
+    }
+}
+
+
+/* responsive media query start */
+
+// MEDIA QUERIES
+
+@media only screen and (min-width: 600px) {
+
+    .projects {
+        max-width: 520px;
+        margin: 40px auto;
+    }    
+}
+
+
+// For Desktops
+
+@media only screen and (min-width: 769px) {
+    .projects {
+        flex-direction: row;
+        align-items: flex-start;
+        width: 80vw;
+        max-width: 1000px;
+        margin: 40px auto;
+
+        img {
+            width: 30vw;
+            padding: 0;
+            margin: 0;
+        }
+
+        .project-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 0;
+            margin-left: 20px;
+
+            h2 { 
+                margin: 0 0 15px 0;
+            }
+        }
+    }
+}

@@ -1,67 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Page</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap'
+    rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <title>Winny Chen|Portfolio</title>
 </head>
 
 <body>
-    <!-- navbar for enter other pages section -->
-    <nav id="navbar">
-        <a href="home.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <!-- page content -->
-    <section id="content">
-        <h1 id="name">Hi, I am winny!</h1>
-        <div class="introduction">
-            <img src="img/profile.jpg" alt="profile.jpg" integrity="gI+e3Iurlml3LvYBaHoW+6hiJz5ObijOB226hamn0kw=192-168-1-2">
-            
-            <div id="about1">
-                <h2>Welcome to my portfolio!</h2>
-                <a href="resume.pdf">Resume</a>
-                <br>
-                <div id="subintro">
-                    <p>At this moment, I am a student doing the full-stack web development bootcamp in the Coder Academy
-                        Melobourne. <br>
-                        <br>
-                        I enjoy designing, interacting websites through coding, keep learning new language and applicate
-                        them. Now, under the course studing, I am able to make it my career and start to marke a
-                        difference!
-                        <br>
-                        <br>
-                        The skills I am familiar with are:
-                        <br>
-                        <div id="skill">
-                            <img src="img/html.jpg" alt="icon">
-                            <img src="img/css.jpg" alt="icon">
-                            <img src="img/ruby.jpg" alt="icon">
-                            <img src="img/git.jpg" alt="icon">
-                            <img src="img/command.jpg" alt="icon">
-                        </div>
-                    </p>
-                    <br>
-                    <p>
-                        In my spare time, I like reading, playing badminton with my friends,hiking and jogging with my
-                        dog.
-                        <br>
-                        <br>
-                        If you have any questions or interested in me, please feel free to...
-                    </p>
-                    <br>
-                    <a href="contact.html">Contact me</a>
-                    <br>
-                    <br>
-                </div>
-            </div>
-        </div>
-</body>
 
+    <div class="page-container">
+
+        <div class="content-wrap">
+
+            <!-- navigation bar -->
+            
+            <header>
+                <nav class="nav">
+                    <label for="toggle">&#9776</label>
+                    <input type="checkbox" id="toggle">
+                    <div class="menu">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="project.html">Projects</a>
+                        <a href="resume.html">Resume</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- about page -->
+
+            <main>
+                <h1 class="main-title">About Me</h1>
+
+                <section class="profile">
+                    <img src="images/profile-1.jpeg" alt="profile pic">                    
+                    <div class="intro-paragraph">
+                        <p>My name is Winny. I am currently studying my <span>Full-stack Web Development bootcamp</span> at Coder Academy and will graduate soon! </p>
+                        <p><span>Writing code can be addictive, just like playing a game.</span> For me, I really enjoy the process of transferring code into components or apps. As the pay and harvest cycle is very short, I can always feel happy during the working. Now, with the help of Coder Academy, I'm really very exited as I'm able to make it my career!</p>
+                        <p>Prior to getting a start in web development, I was a <span>finaical advisor</span> for about 4 years and two-year part-time dog groomer. As a financial advisor, I like to keep learning the latest news and then analyse their effect on the investment. </p>
+                        <p>One of my greatest loves is staying with dogs, I think they like angles. Always leep smiling,loyalty and friendly. So in my free time, I like to go hiking with my dog or join the dogs' party. </p>
+                        <p>If you have any questions, or just want to say hello, please feel free to ...... </p> 
+                    </div>
+                    <a href="contact.html">Contact me</a>   
+                </section>
+            </main>
+        </div>
+
+        <!-- footer -->
+
+        <footer class="footer">
+            <p>© 2021 Winny Chen</p>
+        </footer>
+    
+    </div>   
+
+</body>
 </html>
