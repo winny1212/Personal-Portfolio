@@ -1,8 +1,8 @@
-### A link (URL) to your published portfolio website:
+### A link (URL) to my published portfolio website:
 
 https://winny-portfolio.netlify.app/
 
-### A link to your GitHub repo:
+### A link to my GitHub repo:
 
 https://github.com/winny1212/Personal-Portfolio 
 
