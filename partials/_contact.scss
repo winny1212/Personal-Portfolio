@@ -17,10 +17,25 @@
     }
 
     // social icons
+    @keyframes image-jump {
 
+        0% { transform: translateX(0%); } 
+        15% { transform: translateY(-8%) rotate(-4deg); } 
+        30% { transform: translateY(8%) rotate(2deg); } 
+        45% { transform: translateY(-3%) rotate(-2deg); } 
+        60% { transform: translateY(3%) rotate(1deg); }
+        75% { transform: translateY(-2%) rotate(-1deg); }
+        100% { transform: translateY(0%); } 
+    }
+    
     img {
         width: 40px;
-        margin: 30px 10px 0 20px;     
+        margin: 30px 10px 0 20px;  
+        
+        &:hover {
+            animation-name: image-jump;
+            animation-duration: 1.5s;
+        }
     }
 }
 
