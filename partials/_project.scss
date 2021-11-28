@@ -9,12 +9,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgb(224, 220, 179);
+    box-shadow: 3px 3px rgb(224, 220, 179);
+
+    &:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
 
     // Project image
 
     img {
         width: 100%;
-        border-radius: 10px;
+        border-radius: 5%;
+        
     }
 
     // Project title and text description
