@@ -63,15 +63,16 @@ p {
     
     a {
         color: #fff;
-        font-size: 18px;
-        font-weight:500px;
+        
+        font-size: 1.8rem;
+        font-weight:800px;
         margin-left:25px;
         transition: color 0.3s ease;
 
     &:hover {
         font-weight: bold;
         color: rgb(201,112,117);
-        transform:scale(1.5);
+        transform:scale(1.2);
     }
     
     } 
