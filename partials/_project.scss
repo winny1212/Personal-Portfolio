@@ -9,8 +9,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(224, 220, 179);
-    box-shadow: 3px 3px rgb(224, 220, 179);
+    border: 1px solid rgb(85, 223, 80);
+    box-shadow: 3px 3px rgb(85, 223, 80);
 
     &:hover {
         transform: scale(1.05);
@@ -18,11 +18,11 @@
     }
 
     // Project image
-
+   
     img {
         width: 100%;
         border-radius: 5%;
-        
+        text-align: center;
     }
 
     // Project title and text description
@@ -38,7 +38,7 @@
         color: white;
 
         a{
-            color: crimson;
+            color: rgb(85, 223, 80);
         }
     }
 
@@ -48,12 +48,13 @@
         font-style: italic;
         font-size: 13px;
         color: whitesmoke;
-        padding: 15px 0px 15px 20px;
+        padding: 10px 0px 10px 20px;
 
         li{
             padding: 5px 0;
 
             span{
+                font-size: 15px;
                 font-weight: 800;
             }
         }
